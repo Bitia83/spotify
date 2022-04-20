@@ -1,0 +1,104 @@
+/* section header */
+
+.logo {
+    width: 150px;
+   
+  }
+  nav {
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+     }
+  ul {
+    display: flex;
+    list-style: none;
+    padding: 10px 20px;
+  }
+  li {
+    padding: 0 15px;
+    font-family: sans-serif;
+  }
+  .imagen {
+    background-image: url("https://factoriaf5.s3.eu-west-3.amazonaws.com/talleres/spotify/landing.jpg");
+    height: 80vh;
+    background-size: cover;
+    background-repeat: no-repat;
+    background-position: center;
+    position: relative;
+    padding: 10vh;
+  }
+  .titulo {
+    text-align: center;
+    color: white;
+     margin: 30vh;
+    font-family: sans-serif;
+  }
+  p {
+    font-size: 20px;
+    
+   }
+  h1 {
+    font-size: 50px;
+  }
+  
+  /* section main body */
+  .subtitle {
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: green;
+    text-decoration-style: solid;
+    text-decoration-thickness: 3px;
+    font-size: 200%;
+  }
+  section {
+  display: flex;
+  justify-content: space-around;
+   
+  }
+  section div {
+    margin: 20px 40px 15px 20px;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+  .logos {
+    width: 100px;
+  }
+  
+  /* section main kanye */
+  
+  .green {
+    background-image: url("https://factoriaf5.s3.eu-west-3.amazonaws.com/talleres/spotify/spotify-icon-white.png");
+    background-color: #1ab26b;
+    height: 80vh;
+    background-repeat: no-repeat;
+   background-size: 10%;
+    display: flex;
+    background-position: 50%;
+    justify-content: space-around;
+    padding-top: 50px;
+     }
+  .img {
+   
+   width: 30%;
+  }
+  .kanye{
+    width: 400px;
+    height: 650px;
+  }
+  .text {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 140%
+    }
+  .subrayado {
+     text-decoration: underline;
+    text-decoration-color: white;
+    text-decoration-style: solid;
+    text-decoration-thickness: 3px;
+    
+  }
